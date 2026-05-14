@@ -1,0 +1,27 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output directory (আপনার প্রজেক্টের কনভার্টেড ফাইলগুলো এখানে থাকবে)
+/output/
+
+# Dependency directories
+vendor/
+
+# Go build cache
+.cache/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific binary
+zora-cli
